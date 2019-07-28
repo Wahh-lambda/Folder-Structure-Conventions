@@ -6,6 +6,7 @@ Folder Structure Conventions
 ### A typical top-level directory layout
 
     .
+    ├── trdPrty                 # Other third party projects that is free and/or opensource which depends on (alternatively 'src/trdPrty')
     ├── build                   # Compiled files (alternatively `dist`)
     ├── docs                    # Documentation files (alternatively `doc`)
     ├── src                     # Source files (alternatively `lib` or `app`)
@@ -75,7 +76,7 @@ or, less commonly, into the `doc` folder.
 ...
 
 ### 3rd party libraries
-
+Included on src folder or on the top level of the project as the name TrdPrty or similar names like (trdParty, trdPrty, partnersrc, etc.).
 ...
 
 ### License information
